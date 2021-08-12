@@ -11,7 +11,7 @@ class FavoriteFriendsViewController: UIViewController {
 
     @IBOutlet var tableView: UITableView!
     
-    let favoriteFriends = ["Личное","Работа","Спорт"]
+    let favoriteFriends = ["  ","  ","  "]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +38,7 @@ extension FavoriteFriendsViewController: UITableViewDelegate, UITableViewDataSou
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: FavoriteFriendsTableViewCell.identifier) as! FavoriteFriendsTableViewCell
-        cell.configure(imageName: "dyhaFa", title: favoriteFriends[indexPath.row])
+        cell.configure(imageName: "dyha", title: favoriteFriends[indexPath.row])
         return cell
     }
     

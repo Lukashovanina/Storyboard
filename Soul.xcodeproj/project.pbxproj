@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5315BCD26C54D220025E79C /* MyGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5315BCC26C54D220025E79C /* MyGroupsViewController.swift */; };
+		A5315BD026C54E3A0025E79C /* MyGroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5315BCF26C54E3A0025E79C /* MyGroupsTableViewCell.swift */; };
 		A54B186D26BF0E7B00F83EC6 /* LoginViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B186C26BF0E7B00F83EC6 /* LoginViewControler.swift */; };
 		A54EFA2C26C483A300240E0F /* FavoriteFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EFA2B26C483A300240E0F /* FavoriteFriendsViewController.swift */; };
 		A59A6A1526C491FB00F36AF9 /* FavoriteFriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59A6A1426C491FB00F36AF9 /* FavoriteFriendsTableViewCell.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5315BCC26C54D220025E79C /* MyGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsViewController.swift; sourceTree = "<group>"; };
+		A5315BCF26C54E3A0025E79C /* MyGroupsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsTableViewCell.swift; sourceTree = "<group>"; };
 		A54B186C26BF0E7B00F83EC6 /* LoginViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControler.swift; sourceTree = "<group>"; };
 		A54EFA2B26C483A300240E0F /* FavoriteFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFriendsViewController.swift; sourceTree = "<group>"; };
 		A59A6A1426C491FB00F36AF9 /* FavoriteFriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFriendsTableViewCell.swift; sourceTree = "<group>"; };
@@ -43,6 +47,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5315BC026C533310025E79C /* MyGroups */ = {
+			isa = PBXGroup;
+			children = (
+				A5315BCE26C54E130025E79C /* CellTwo */,
+				A5315BCB26C54CE40025E79C /* ControllerTwo */,
+			);
+			path = MyGroups;
+			sourceTree = "<group>";
+		};
+		A5315BC126C5334C0025E79C /* SelectGroups */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SelectGroups;
+			sourceTree = "<group>";
+		};
+		A5315BCB26C54CE40025E79C /* ControllerTwo */ = {
+			isa = PBXGroup;
+			children = (
+				A5315BCC26C54D220025E79C /* MyGroupsViewController.swift */,
+			);
+			path = ControllerTwo;
+			sourceTree = "<group>";
+		};
+		A5315BCE26C54E130025E79C /* CellTwo */ = {
+			isa = PBXGroup;
+			children = (
+				A5315BCF26C54E3A0025E79C /* MyGroupsTableViewCell.swift */,
+			);
+			path = CellTwo;
+			sourceTree = "<group>";
+		};
 		A54B186626BF003800F83EC6 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +116,8 @@
 		A54B186A26BF0DF900F83EC6 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				A5315BC126C5334C0025E79C /* SelectGroups */,
+				A5315BC026C533310025E79C /* MyGroups */,
 				A54EFA2926C4831500240E0F /* AllFriends */,
 				A54EFA2826C482ED00240E0F /* FavoriteFriends */,
 				A54B186B26BF0E5300F83EC6 /* Login */,
@@ -227,11 +265,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54EFA2C26C483A300240E0F /* FavoriteFriendsViewController.swift in Sources */,
+				A5315BCD26C54D220025E79C /* MyGroupsViewController.swift in Sources */,
 				A5D881D026BEFEE700FD5A7A /* ViewController.swift in Sources */,
 				A5D881CC26BEFEE700FD5A7A /* AppDelegate.swift in Sources */,
 				A5D881CE26BEFEE700FD5A7A /* SceneDelegate.swift in Sources */,
 				A54B186D26BF0E7B00F83EC6 /* LoginViewControler.swift in Sources */,
 				A59A6A1526C491FB00F36AF9 /* FavoriteFriendsTableViewCell.swift in Sources */,
+				A5315BD026C54E3A0025E79C /* MyGroupsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
