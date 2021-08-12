@@ -39,8 +39,8 @@ final class LoginViewControler: UIViewController {
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
     }
-
-    @IBAction private func loginButtonPressed(_ sender: UIButton) {
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+      //  if identifier == "loginSegue"{
         //Получаем логини от пользователя
         let loginText = loginTextField.text
         
@@ -49,11 +49,55 @@ final class LoginViewControler: UIViewController {
         
         if loginText == "1" && passwordText == "1"{
             print("Success")
+            return true
         } else {
             print("Error login or password")
+           showAlert(title: "Ошибка", massage: "Не верный логини или пароль")
+            return false
         }
+//     } else {
+//   }
+//        return true
+ }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       if segue.identifier == "demoLoginSegue" {
+        let destinationController = segue.destination as! UITabBarController
+        destinationController.viewControllers?.forEach { $0.view.backgroundColor = .blue }
+        destinationController.tabBar.items?[1].badgeValue = "1"
+      }
+    }
+    @IBAction func logout (_segue: UIStoryboardSegue) {
+        loginTextField.text = ""
+        passwordTextField.text = ""
+    }
+
+    @IBAction private func loginButtonPressed(_ sender: UIButton) {
+        
     }
     
+    private func showAlert(title: String, massage: String){
+        let alertController = UIAlertController(title: title,
+                                                message: massage,
+                                                preferredStyle: .alert)
+
+        let closeAction = UIAlertAction(title:"OK",
+                                        style: .cancel) { [weak self] _ in
+            guard let self = self else { return }
+            self.loginTextField.text = ""
+            self.passwordTextField.text = ""
+        }
+
+        alertController.addAction(closeAction)
+
+        present(alertController, animated: true, completion: nil)
+    }
+    
+    @IBAction func demoButtonPressed(_ sender: UIButton) {
+    performSegue(withIdentifier: "demoLoginSegue", sender: nil)
+        
+    }
     @objc func hideKeyboard(){
         self.scrollView?.endEditing(true)
     }
