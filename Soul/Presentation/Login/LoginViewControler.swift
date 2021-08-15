@@ -47,7 +47,7 @@ final class LoginViewControler: UIViewController {
         //Получаем пароль от пользователя
         let passwordText = passwordTextField.text
         
-        if loginText == "1" && passwordText == "1"{
+        if loginText == "" && passwordText == ""{
             print("Success")
             return true
         } else {
