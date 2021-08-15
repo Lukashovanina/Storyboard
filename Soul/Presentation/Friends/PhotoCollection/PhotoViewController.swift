@@ -22,6 +22,8 @@ final class PhotoViewController: UIViewController {
     
 }
 extension PhotoViewController: UICollectionViewDelegate {
+    func collectionView(_collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath){
+    }
     
 }
 extension PhotoViewController: UICollectionViewDataSource {
@@ -29,10 +31,12 @@ extension PhotoViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         photos.count
     }
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PhotoViewCell.identifier, for:  indexPath) as! PhotoViewCell
-        let photoModel = photos[indexPath.item]
-        cell.configure(photoModel: photoModel)
+        
+        let photo = photos[indexPath.item]
+        cell.configure(photoModel: photo)
         
         return cell
     }
