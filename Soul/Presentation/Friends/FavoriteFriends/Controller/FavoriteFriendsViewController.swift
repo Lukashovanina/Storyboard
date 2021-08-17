@@ -22,15 +22,14 @@ class FavoriteFriendsViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "moveToFhoto" {
-            
+        if segue.identifier == "moveToPhoto" {
             guard
                 let destinationVC = segue.destination as? PhotoViewController,
                 let indexSelectCell = tableView.indexPathForSelectedRow?.row
             else { return }
-            
+          
             let selectFriend = favoriteFriends[indexSelectCell]
-            destinationVC.title = selectFriend.nicName
+            destinationVC.title = favoriteFriends[indexSelectCell].nicName
             destinationVC.photos = selectFriend.photo
         }
     }
@@ -41,6 +40,7 @@ class FavoriteFriendsViewController: UIViewController {
             let indexSelectCell = sourseController.tableView.indexPathForSelectedRow
         
         else { return }
+        
         let friend = sourseController.allFriends[indexSelectCell.row]
         if !favoriteFriends.contains (where: { friend.nicName == $0.nicName}) {
             favoriteFriends.append(friend)

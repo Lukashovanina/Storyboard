@@ -20,3 +20,4 @@ class FavoriteFriendsTableViewCell: UITableViewCell {
         
     }
 }
+

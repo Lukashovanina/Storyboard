@@ -1,5 +1,5 @@
 //
-//  Friends.swift
+//  Friend.swift
 //  Soul
 //
 //  Created by Нина Лукашова on 14.08.2021.
@@ -12,5 +12,5 @@ struct FriendModel {
     let nicName: String
     let avatarName: String
     var groupsUser: [GroupModel]
-    var photo: [PhotoModel]
+    var photo: [PhotoCollectionModel]
     }

@@ -2,7 +2,7 @@
 //  AllFriendsViewCell.swift
 //  Soul
 //
-//  Created by Нина Лукашова on 15.08.2021.
+//  Created by Нина Лукашова on 17.08.2021.
 //
 
 
@@ -13,12 +13,15 @@ class AllFriendsViewCell: UITableViewCell {
     static let identifier = "AllFriendsViewCell"
     
 
-    @IBOutlet var friendImageView: UIImageView!
-    @IBOutlet var friendNameLable: UILabel!
+    @IBOutlet private var friendImageView: UIImageView!
+    @IBOutlet private var friendNameLable: UILabel!
     
     func configure(allFriends: FriendModel){
         friendImageView.image = UIImage (named: allFriends.avatarName)
         friendNameLable.text = allFriends.nicName
         
     }
+    
 }
+
+

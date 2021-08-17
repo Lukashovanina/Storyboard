@@ -15,8 +15,8 @@ final class PhotoViewCell: UICollectionViewCell{
     @IBOutlet var photoImageView: UIImageView!
     @IBOutlet var photoNameLable: UILabel!
     
-    func configure (photoModel: PhotoModel) {
-        photoNameLable.text = photoModel.namePhoto
-        photoImageView.image = UIImage(named: photoModel.fileName)
+    func configure (photoCollectionModel: PhotoCollectionModel) {
+        photoNameLable.text = photoCollectionModel.namePhoto
+        photoImageView.image = UIImage(named: photoCollectionModel.fileName)
     }
 }

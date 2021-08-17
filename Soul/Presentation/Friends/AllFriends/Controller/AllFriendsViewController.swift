@@ -9,6 +9,7 @@ import UIKit
 
 final class AllFriendsViewController: UIViewController {
     
+  
     @IBOutlet var tableView: UITableView!
     
     let storage: FriendStorage = FriendStorage()

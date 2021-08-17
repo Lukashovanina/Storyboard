@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-struct PhotoModel {
+struct PhotoCollectionModel {
     let namePhoto: String
     let fileName: String
 }

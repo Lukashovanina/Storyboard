@@ -14,9 +14,9 @@ class MyGroupsTableViewCell: UITableViewCell {
     @IBOutlet private var lableCell: UILabel!
     @IBOutlet private var itemCell: UIImageView!
     
-    func configure(imageName: String, title: String){
-        itemCell.image = UIImage (named: "dyha")
-        lableCell.text = title
+    func configure(group: GroupModel){
+        itemCell.image = UIImage (named: group.avatarGroup)
+        lableCell.text = group.nameGroup
         
     }
  }
