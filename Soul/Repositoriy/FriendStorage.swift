@@ -18,11 +18,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Прочстоквашино", avatarGroup: "Простоквашино")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Дядя Федор 2"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Дядя Федор 3"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Дядя Федор 4"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Дядя Федор 5"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Дядя Федор 6"),
+                            PhotoCollectionModel(nicName: "", fileName: "Дядя Федор 2"),
+                            PhotoCollectionModel(nicName: "", fileName: "Дядя Федор 3"),
+                            PhotoCollectionModel(nicName: "", fileName: "Дядя Федор 4"),
+                            PhotoCollectionModel(nicName: "", fileName: "Дядя Федор 5"),
+                            PhotoCollectionModel(nicName: "", fileName: "Дядя Федор 6"),
                          ]
             ),
             FriendModel (nicName: "Папа", avatarName: "Папа 1",
@@ -30,10 +30,10 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Простоквашино", avatarGroup: "Простоквашино")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Папа 2"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Папа 3"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Папа 4"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Папа 5"),
+                            PhotoCollectionModel(nicName: "", fileName: "Папа 2"),
+                            PhotoCollectionModel(nicName: "", fileName: "Папа 3"),
+                            PhotoCollectionModel(nicName: "", fileName: "Папа 4"),
+                            PhotoCollectionModel(nicName: "", fileName: "Папа 5"),
                             
                          ]
             ),
@@ -43,11 +43,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Простоквашино", avatarGroup: "Простоквашино")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Мама 2"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Мама 3"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Мама 4"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Мама 5"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Мама 6"),
+                            PhotoCollectionModel(nicName: "", fileName: "Мама 2"),
+                            PhotoCollectionModel(nicName: "", fileName: "Мама 3"),
+                            PhotoCollectionModel(nicName: "", fileName: "Мама 4"),
+                            PhotoCollectionModel(nicName: "", fileName: "Мама 5"),
+                            PhotoCollectionModel(nicName: "", fileName: "Мама 6"),
                          ]
             ),
             
@@ -56,11 +56,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Простоквашино", avatarGroup: "Простоквашино")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Печкин 2"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Печкин 3"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Печкин 4"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Печкин 5"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Печкин 6"),
+                            PhotoCollectionModel(nicName: "", fileName: "Печкин 2"),
+                            PhotoCollectionModel(nicName: "", fileName: "Печкин 3"),
+                            PhotoCollectionModel(nicName: "", fileName: "Печкин 4"),
+                            PhotoCollectionModel(nicName: "", fileName: "Печкин 5"),
+                            PhotoCollectionModel(nicName: "", fileName: "Печкин 6"),
                          ]
             ),
             
@@ -69,12 +69,12 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Простоквашино", avatarGroup: "Простоквашино")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Мурка 2"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Мурка 3"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Мурка 4"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Мурка 5"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Мурка 6"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Мурка 7"),
+                            PhotoCollectionModel(nicName: "", fileName: "Мурка 2"),
+                            PhotoCollectionModel(nicName: "", fileName: "Мурка 3"),
+                            PhotoCollectionModel(nicName: "", fileName: "Мурка 4"),
+                            PhotoCollectionModel(nicName: "", fileName: "Мурка 5"),
+                            PhotoCollectionModel(nicName: "", fileName: "Мурка 6"),
+                            PhotoCollectionModel(nicName: "", fileName: "Мурка 7"),
                          ]
             ),
             
@@ -84,11 +84,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Простоквашино", avatarGroup: "Простоквашино")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Матроскин 2"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Матроскин 3"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Матроскин 4"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Матроскин 5"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Матроскин 6"),
+                            PhotoCollectionModel(nicName: "", fileName: "Матроскин 2"),
+                            PhotoCollectionModel(nicName: "", fileName: "Матроскин 3"),
+                            PhotoCollectionModel(nicName: "", fileName: "Матроскин 4"),
+                            PhotoCollectionModel(nicName: "", fileName: "Матроскин 5"),
+                            PhotoCollectionModel(nicName: "", fileName: "Матроскин 6"),
                          ]
             ),
             
@@ -97,11 +97,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Простоквашино", avatarGroup: "Простоквашино")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Шарик 2"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Шарик 3"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Шарик 4"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Шарик 5"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Шарик 6"),
+                            PhotoCollectionModel(nicName: "", fileName: "Шарик 2"),
+                            PhotoCollectionModel(nicName: "", fileName: "Шарик 3"),
+                            PhotoCollectionModel(nicName: "", fileName: "Шарик 4"),
+                            PhotoCollectionModel(nicName: "", fileName: "Шарик 5"),
+                            PhotoCollectionModel(nicName: "", fileName: "Шарик 6"),
                          ]
             ),
             
@@ -110,11 +110,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Маугли", avatarGroup: "МауглиОбщая")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Маугли"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Маугли"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Маугли"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Маугли"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Маугли"),
+                            PhotoCollectionModel(nicName: "", fileName: "Маугли"),
+                            PhotoCollectionModel(nicName: "", fileName: "Маугли"),
+                            PhotoCollectionModel(nicName: "", fileName: "Маугли"),
+                            PhotoCollectionModel(nicName: "", fileName: "Маугли"),
+                            PhotoCollectionModel(nicName: "", fileName: "Маугли"),
                          ]
             ),
             FriendModel (nicName: "Балу", avatarName: "Балу",
@@ -122,11 +122,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Маугли", avatarGroup: "МауглиОбщая")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Балу"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Балу"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Балу"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Балу"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Балу"),
+                            PhotoCollectionModel(nicName: "", fileName: "Балу"),
+                            PhotoCollectionModel(nicName: "", fileName: "Балу"),
+                            PhotoCollectionModel(nicName: "", fileName: "Балу"),
+                            PhotoCollectionModel(nicName: "", fileName: "Балу"),
+                            PhotoCollectionModel(nicName: "", fileName: "Балу"),
                          ]
             ),
             
@@ -138,11 +138,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Простоквашино", avatarGroup: "Простоквашино")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Галчонок"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Галчонок"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Галчонок"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Галчонок"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Галчонок"),
+                            PhotoCollectionModel(nicName: "", fileName: "Галчонок"),
+                            PhotoCollectionModel(nicName: "", fileName: "Галчонок"),
+                            PhotoCollectionModel(nicName: "", fileName: "Галчонок"),
+                            PhotoCollectionModel(nicName: "", fileName: "Галчонок"),
+                            PhotoCollectionModel(nicName: "", fileName: "Галчонок"),
                          ]
             ),
             
@@ -151,11 +151,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Простоквашино", avatarGroup: "Простоквашино")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Теленок"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Теленок"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Теленок"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Теленок"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Теленок"),
+                            PhotoCollectionModel(nicName: "", fileName: "Теленок"),
+                            PhotoCollectionModel(nicName: "", fileName: "Теленок"),
+                            PhotoCollectionModel(nicName: "", fileName: "Теленок"),
+                            PhotoCollectionModel(nicName: "", fileName: "Теленок"),
+                            PhotoCollectionModel(nicName: "", fileName: "Теленок"),
                          ]
             ),
             
@@ -164,11 +164,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Маугли", avatarGroup: "МауглиОбщая")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Багира"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Багира"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Багира"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Багира"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Багира"),
+                            PhotoCollectionModel(nicName: "", fileName: "Багира"),
+                            PhotoCollectionModel(nicName: "", fileName: "Багира"),
+                            PhotoCollectionModel(nicName: "", fileName: "Багира"),
+                            PhotoCollectionModel(nicName: "", fileName: "Багира"),
+                            PhotoCollectionModel(nicName: "", fileName: "Багира"),
                          ]
             ),
             FriendModel (nicName: "Ослик", avatarName: "Ослик",
@@ -176,11 +176,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Винипух", avatarGroup: "ВинипухОбщая")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Ослик"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Ослик"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Ослик"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Ослик"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Ослик"),
+                            PhotoCollectionModel(nicName: "", fileName: "Ослик"),
+                            PhotoCollectionModel(nicName: "", fileName: "Ослик"),
+                            PhotoCollectionModel(nicName: "", fileName: "Ослик"),
+                            PhotoCollectionModel(nicName: "", fileName: "Ослик"),
+                            PhotoCollectionModel(nicName: "", fileName: "Ослик"),
                          ]
             ),
             FriendModel (nicName: "Пчелы", avatarName: "Пчелы",
@@ -188,11 +188,11 @@ class FriendStorage {
                          groupsUser: [GroupModel(nameGroup: "Винипух", avatarGroup: "ВинипухОбщая")
                          ],
                          photo: [
-                            PhotoCollectionModel(namePhoto: "", fileName: "Пчелы"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Пчелы"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Пчелы"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Пчелы"),
-                            PhotoCollectionModel(namePhoto: "", fileName: "Пчелы"),
+                            PhotoCollectionModel(nicName: "", fileName: "Пчелы"),
+                            PhotoCollectionModel(nicName: "", fileName: "Пчелы"),
+                            PhotoCollectionModel(nicName: "", fileName: "Пчелы"),
+                            PhotoCollectionModel(nicName: "", fileName: "Пчелы"),
+                            PhotoCollectionModel(nicName: "", fileName: "Пчелы"),
                          ]
             )
         ]

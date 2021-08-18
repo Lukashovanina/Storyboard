@@ -9,6 +9,6 @@ import Foundation
 import UIKit
 
 struct PhotoCollectionModel {
-    let namePhoto: String
+    let nicName: String
     let fileName: String
 }

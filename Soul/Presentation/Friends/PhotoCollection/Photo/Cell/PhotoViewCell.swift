@@ -8,15 +8,17 @@
 import UIKit
 
 final class PhotoViewCell: UICollectionViewCell{
-    
-    static var identifier: String = "PhotoViewcell"
-    
+
 
     @IBOutlet var photoImageView: UIImageView!
     @IBOutlet var photoNameLable: UILabel!
     
+    static let identifier = "PhotoViewCell"
+    
     func configure (photoCollectionModel: PhotoCollectionModel) {
-        photoNameLable.text = photoCollectionModel.namePhoto
+        photoNameLable.text = photoCollectionModel.nicName
         photoImageView.image = UIImage(named: photoCollectionModel.fileName)
     }
-}
+    
+  }
+

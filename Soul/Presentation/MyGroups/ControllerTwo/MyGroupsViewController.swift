@@ -18,6 +18,7 @@ class MyGroupsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         MyGroups = storage.group
         tableViewtwo.delegate = self
         tableViewtwo.dataSource = self
@@ -59,7 +60,7 @@ extension MyGroupsViewController: UITableViewDelegate, UITableViewDataSource {
         MyGroups.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: MyGroupsTableViewCell.idetifier) as! MyGroupsTableViewCell
+      let cell = tableView.dequeueReusableCell(withIdentifier: MyGroupsTableViewCell.identifier) as! MyGroupsTableViewCell
         cell.configure(group: MyGroups[indexPath.row])
         return cell
         

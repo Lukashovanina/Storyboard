@@ -20,6 +20,8 @@ final class AddAllGroupsController: UIViewController {
         super.viewDidLoad()
         
         Allgroups = GroupStorage().allGroups
+        
+        TableViewtwo.dataSource = self
     }
 }
 
@@ -27,19 +29,16 @@ extension AddAllGroupsController: UITabBarDelegate, UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         1
-        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         Allgroups.count
-        
     }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard
-            let cell = tableView.dequeueReusableCell(withIdentifier: AddAllGroupsCell.idetifier, for: indexPath) as?
+          let cell = tableView.dequeueReusableCell(withIdentifier: AddAllGroupsCell.identifier, for: indexPath) as?
             AddAllGroupsCell
-        
+           
         else{
           return UITableViewCell()
         }

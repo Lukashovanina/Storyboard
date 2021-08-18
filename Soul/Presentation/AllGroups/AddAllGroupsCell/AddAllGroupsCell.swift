@@ -10,12 +10,11 @@ import Foundation
 import UIKit
 
 final class AddAllGroupsCell: UITableViewCell {
-    
-    
-    static let idetifier = "AddAllGroupsCell"
 
     @IBOutlet var lablecell: UILabel!
     @IBOutlet var itemCell: UIImageView!
+    
+    static let identifier = "AddAllGroupsCell"
     
     func configure(allGroups: GroupModel){
        

@@ -16,7 +16,9 @@ final class AllFriendsViewController: UIViewController {
     var allFriends: [FriendModel] = []
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
         allFriends = storage.allFriends
         
         tableView.delegate = self

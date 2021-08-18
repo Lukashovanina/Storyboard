@@ -9,7 +9,7 @@ import UIKit
 
 class MyGroupsTableViewCell: UITableViewCell {
     
-    static let idetifier = "MyGroupsTableViewCell"
+    static let identifier = "MyGroupsTableViewCell"
     
     @IBOutlet private var lableCell: UILabel!
     @IBOutlet private var itemCell: UIImageView!
